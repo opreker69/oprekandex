@@ -5,12 +5,12 @@ echo "\e[99m_________________\e[99m".date('[d-m-Y] [H:i:s]')."\e[99m____________
 echo "\e[92mв–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬\n";
 echo "\e[92mв–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬\n";
 echo "\e[99m      \e[99m DORR GOPUD! Gunakan Dengan Bijak! \e[99m \n";
-echo "\e[99m   \e[99m                 @OPREK ANDEK \e[99m \n";
+echo "\e[99m   \e[99m                 @OPREK-ANDEX_ \e[99m \n";
 echo "\e[92m  ==============================================\n";
-echo "\e[94m  =1. VOUCHER GOFOOD 20K MINBEL 30K
-echo "\e[94m  =2. VOUCHER GOFOOD 15K MINBEL 30K
-echo "\e[94m  =3. VOUCHER GOFOOD 10K MINBEL 30K
-echo "\e[94m  =4. VOUCHER LAIN NYA..!!!
+echo "\e[94m  =\e[97m рџ¤ё  1. VOUCHER GOFOOD 20K MINBEL 30K вњ„1¤71пї„1¤77          рџ‡®рџ‡© \e[92m=\n";
+echo "\e[94m  =\e[94m рџ¤ё  2. VOUCHER GOFOOD 15K MINBEL 30K  вњ„1¤71пї„1¤77 рџ‡®рџ‡© \e[92m=\n";
+echo "\e[94m  =\e[97m рџ¤ё  3. VOUCHER GOFOOD 10K MINBEL 30K  вњ„1¤71пї„1¤77 рџ‡®рџ‡© \e[92m=\n";
+echo "\e[94m  =\e[94m рџ¤ё  4. VOUCHER DISKON Lainnya   вњ„1¤71пї„1¤77     рџ‡®рџ‡© \e[92m=\n";
 echo "\e[91m  ==============================================\n";
 echo "\e[91mв–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬\n";
 echo "\e[99m Sudah Punya User Id (Y/N ?: ";	
@@ -213,7 +213,7 @@ echo "\e[89mв–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("nevy","PIN GOPAY KAMU ADALAH = 112233")."\n";
+         echo color("nevy","в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬рџ”§ PIN GOPAY KAMU ADALAH = 112233 рџ”§в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬в–¬")."\n";
          $data2 = '{"pin":"112233"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
